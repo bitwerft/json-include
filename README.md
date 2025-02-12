@@ -1,2 +1,7 @@
-# json-include
-Provides functionality to include content of JSON files into JSON files.
+# JSON Include
+
+## Installation
+
+
+## Getting started
+

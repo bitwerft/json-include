@@ -1,0 +1,21 @@
+{
+  "name":        "bitwerft/json-include",
+  "description": "Provides functionality to include content of JSON files into another JSON files.",
+  "type":        "library",
+  "license":     "MIT",
+  "autoload":    {
+    "psr-4": {
+      "Bitwerft\\JsonInclude\\": "src/"
+    }
+  },
+  "authors":     [
+    {
+      "name":  "Mattis Prehm",
+      "email": "mpr@bitwerft.de"
+    }
+  ],
+  "require":     {
+    "php":      "^8.1",
+    "ext-apcu": "*"
+  }
+}
