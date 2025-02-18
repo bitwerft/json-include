@@ -10,7 +10,8 @@ This allows you to use `#include` within `.json` files, so you can break up larg
 - In your json file add a "#include" as the key, with the name (if in the same folder) or the path to the file as the value
 - This can be in the middle of an array, as the only array element or nested deep in the file. The content of the included json will be placed at the exact same place.
 - This file needs to be a valid json
-- There is a maximum Number of includes which is by default set to 100 to prevent circular includes
+- There is a maximum Number of includes, which is by default set to 100 to prevent circular includes
+- `use Bitwerft\JsonInclude\JsonInclude;`
 - **Execute using `JsonInclude::render('filename.json');`**
 
 **2. Included JSON Files**
