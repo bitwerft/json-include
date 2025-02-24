@@ -3,7 +3,7 @@ This allows you to use `#include` within `.json` files, so you can break up larg
 
 ## Installation
 **Through [composer](https://getcomposer.org/):**
-- Simply execute `composer require bitwerft/jsoninclude`
+- Simply execute `composer require bitwerft/json-include`
 
 ## Usage
 **1. JSON File**
